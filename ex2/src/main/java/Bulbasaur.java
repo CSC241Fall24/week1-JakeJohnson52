@@ -32,7 +32,7 @@ public class Bulbasaur{
     public String toString(){
         return "" + level + " " + getName();
     }
-    public boolean equals(bulb a, bulb b){
+    public boolean equals(Bulbasaur a, Bulbasaur b){
         if(a.getLevel() != b.getLevel()){
             return false;
         } else if(a.getName.equals(b.getName())){
