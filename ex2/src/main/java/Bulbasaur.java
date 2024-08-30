@@ -24,7 +24,7 @@ public class Bulbasaur{
         } else if (id == 2){
             return "Ivysaur";
         } else if (id == 3){
-            return "Vensaur";
+            return "Venusaur";
         } else {
             return "";
         }
