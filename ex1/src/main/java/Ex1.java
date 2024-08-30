@@ -11,8 +11,8 @@ public class Ex1 {
         // TODO: Implement this method to calculate the sum of the arithmetic progression
         // Hint: Use a loop to add up all the terms
             long sum = 0;
-            for(long i = start; i <= 100899; i += step){
-                sum += i;
+            for(long i = start; i <= start + count; i++){
+                sum += step;
             }
         return sum; // This is a placeholder return value. Replace it with your calculation.
     }
