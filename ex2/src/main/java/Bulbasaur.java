@@ -44,9 +44,9 @@ public class Bulbasaur{
             return false;
         }
     }
-    public Bulbasaur copy(Bulbasaur test){
+    public Bulbasaur copy(){
         Bulbasaur b = new Bulbasaur();
-        b.setLevel(test.getLevel());
+        b.setLevel(getLevel());
         return b;
     }
 }
