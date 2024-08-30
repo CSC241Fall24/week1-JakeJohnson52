@@ -3,7 +3,10 @@ public class Bulbasaur{
     private int id = 1;
     private int level = 1;
 
-    public Bulbasaur(){}
+    public Bulbasaur(){
+        id = 1;
+        level = 1;
+    }
     public void setLevel(int lv){
         level = lv;
         if(lv >= 16 && lv <= 31){
