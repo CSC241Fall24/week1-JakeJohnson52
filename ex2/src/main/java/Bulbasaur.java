@@ -38,7 +38,7 @@ public class Bulbasaur{
     public boolean equals(Bulbasaur a, Bulbasaur b){
         if(a.getLevel() != b.getLevel()){
             return false;
-        } else if(a.getName.equals(b.getName())){
+        } else if(a.getName().equals(b.getName())){
             return true;
         } else{
             return false;
