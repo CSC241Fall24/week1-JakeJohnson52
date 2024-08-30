@@ -33,12 +33,12 @@ public class Bulbasaur{
         return id;
     }
     public String toString(){
-        return "" + level + " " + getName();
+        return "Level: " + level + ", ID: " + id;
     }
-    public boolean equals(Bulbasaur a, Bulbasaur b){
-        if(a.getLevel() != b.getLevel()){
+    public boolean equals(Bulbasaur a){
+        if(a.getLevel() != this.getLevel()){
             return false;
-        } else if(a.getName().equals(b.getName())){
+        } else if(a.getName().equals(this.getName())){
             return true;
         } else{
             return false;
@@ -46,7 +46,7 @@ public class Bulbasaur{
     }
     public Bulbasaur copy(){
         Bulbasaur b = new Bulbasaur();
-        b.setLevel(getLevel());
+        b.setLevel(this.getLevel());
         return b;
     }
 }
